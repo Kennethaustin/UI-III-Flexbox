@@ -18,19 +18,36 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+    border: 25px;
+    color: black;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
+    
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+.nav {
+    background-color:transparent; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  img { width
+    position: absolute: left:0; top:0;
+  flex-direction: row; }
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
 body {
 	line-height: 1;
 }
+img { display: block;
+text-align: right; margin:auto;
+padding: 25px;}
 ol, ul {
 	list-style: none;
 }
@@ -87,7 +104,7 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed gray;
 }
 
 .middle-content h2 {
@@ -103,14 +120,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+div.box:nth-child(1){
+    background: teal
+}
+div.box:nth-child(2){
+    background: gold
+}
+div.box:nth-child(3){
+    background: cadetblue;
+}
+div.box:nth-child(4){
+    background: coral;
+}
+div.box:nth-child(5){
+   background: crimson;
+}
+div.box:nth-child(6){
+   background: forestgreen;
+}
+div.box:nth-child(7){
+    background:darkorchid;
+}
+div.box:nth-child(8){
+    background: hotpink;
+}
+div.box:nth-child(9){
+    background: indigo;
+}
+div.box:nth-child(10){
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
